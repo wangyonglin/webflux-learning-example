@@ -1,5 +1,6 @@
-package com.wangyonglin.restful.routes;
+package com.wangyonglin.restul.routes;
 
+import com.wangyonglin.restul.handler.PersonHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -8,7 +9,7 @@ import org.springframework.web.reactive.function.server.RequestPredicates;
 import org.springframework.web.reactive.function.server.RouterFunction;
 import org.springframework.web.reactive.function.server.RouterFunctions;
 import org.springframework.web.reactive.function.server.ServerResponse;
-import com.wangyonglin.restful.handler.PersonHandler;
+
 
 @Configuration
 public class PersonRoutes{

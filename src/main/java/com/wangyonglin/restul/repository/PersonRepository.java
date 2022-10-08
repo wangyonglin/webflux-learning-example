@@ -1,8 +1,9 @@
-package com.wangyonglin.restful.repository;
+package com.wangyonglin.restul.repository;
 
+import com.wangyonglin.restul.entity.Person;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 import org.springframework.stereotype.Repository;
-import com.wangyonglin.restful.entity.Person;
+
 import org.springframework.context.annotation.Primary;
 @Repository
 @Primary

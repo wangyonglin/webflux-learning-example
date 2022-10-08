@@ -1,6 +1,7 @@
-package com.wangyonglin.restful.validator;
+package com.wangyonglin.restul.validator;
 
-import com.wangyonglin.restful.entity.Person;
+
+import com.wangyonglin.restul.entity.Person;
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;

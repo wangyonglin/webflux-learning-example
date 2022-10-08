@@ -1,4 +1,4 @@
-package com.wangyonglin.restful.entity;
+package com.wangyonglin.restul.entity;
 
 import org.springframework.data.annotation.Id;
 

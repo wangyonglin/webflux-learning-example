@@ -1,7 +1,7 @@
-package com.wangyonglin.springframework.result;
+package com.wangyonglin.restul.callback;
 
 
-import javakit.date.DateUtils;
+
 import lombok.Data;
 import java.util.Date;
 
@@ -17,7 +17,7 @@ public class ResultObject {
         
         ResultObject resultObject = new ResultObject();
         resultObject.setErrcode(status);
-        resultObject.setTimestamp(DateUtils.CurrentDate());
+        resultObject.setTimestamp(new Date());
         resultObject.setReason(message);
         resultObject.setResult(new Object());
         return resultObject;
@@ -27,7 +27,7 @@ public class ResultObject {
         resultObject.setErrcode(status);
         resultObject.setReason("SUCCESS");
         resultObject.setResult(producer);
-        resultObject.setTimestamp(DateUtils.CurrentDate());
+        resultObject.setTimestamp(new Date());
         return resultObject;
     }
 }

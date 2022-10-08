@@ -1,4 +1,4 @@
-package com.wangyonglin.restful.exception;
+package com.wangyonglin.restul.exception;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
